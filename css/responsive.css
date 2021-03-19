@@ -91,29 +91,56 @@
         padding: 13px;
     }
 
-    /* feature */
-    .feature-item {
-        width: 70%;
+    .heading-img {
+        margin-bottom: 35px;
     }
 
+    /* feature */
+    .feature-item {
+        width: 80%;
+    }
 
+    .feature-header {
+        font-size: 9vw;
+    }
+
+    .feature-item p {
+        font-size: 4vw;
+    }
 
     /* about-us */
-    .about-us > .container {
-        padding: 60px 0;
+
+    .about-us {
+        padding: 30px 0;
     }
 
     .intro p {
         font-size: 3.5vw;
-        line-height: 3vh;
+        line-height: 3.5vh;
     }
 
     /* contact */
-    .contact-header {
-        flex: 45%;
+    .contact-section {
+        padding-bottom: 20px;
+    }
+    
+    .contact-section > .container {
+        flex-direction: column;
     }
 
-    .contact {
-        flex: 70%;
+    .contact-header {
+        margin-bottom: 10px;
+    }
+
+    .contact-header br {
+        display: none;
+    }
+
+    .contact-item img {
+        width: 45px;
+    }
+
+    .contact-item p {
+        font-size: 3.5vw;
     }
 }
