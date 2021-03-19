@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    pointer-events: none;
+}
+
 body {
     background-image: linear-gradient(to bottom right, #478CB6, #4B9CB7, #54BFB5, #54BFB5);
     background-color: #2A9CA7;
