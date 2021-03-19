@@ -1,0 +1,78 @@
+@media (max-width: 900px) {
+
+    /* header */
+    nav {
+        display: none;
+    }
+
+    .toogle {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    /* About Us */
+    .about-us > .container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* main content */
+    main > .container {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .heading-title h1 {
+        font-size: 15vw;
+        line-height: 18vw;
+    }
+
+    /* main search */
+    #main-search {
+        font-size: 4vw;
+    }
+
+    ::placeholder {
+        font-size: 4vw;
+    }
+
+    .heading-img {
+        margin-top: 20px;
+    }
+
+    /* feature */
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item {
+        width: 60%;
+    }
+
+    .feature-item p {
+        font-size: 3vw;
+    }
+
+    .doc {
+        margin: 0;
+    }
+    
+    .lamp {
+        margin: 0;
+        margin-top: 60px;
+    }
+
+    .hat {
+        margin-top: 60px;
+    }
+
+    /* contact */
+    .contact-item img {
+        width: 30px;
+    }
+}

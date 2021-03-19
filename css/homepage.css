@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #478CB6, #4B9CB7, #54BFB5, #54BFB5);
+    background-color: #2A9CA7;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #D7EEF4;
+  }
+
+.container {
+    margin: 0 5%;
+    padding: 40px 0;
+}
+
+.toogle {
+    float: left;
+    display: none;
+}
+
+.strip {
+    width: 40px;
+    height: 5px;
+    background: white;
+    margin-bottom: 5px;
+}
+
+/* header */
+nav {
+    margin-left: 20px;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.nav-items a {
+    color: #D7EEF4;
+    font-size: 25px;
+    margin-left: 5vw;
+}
+
+.login-btn  {
+    float: right;
+}
+
+.login-btn a {
+    padding: 5px 15px;
+    background-color: #FF7E69;
+    font-size: 25px;
+    color: #D7EEF4;
+    border-radius: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* main content */
+
+main > .container {
+    display: flex;
+}
+
+.heading-title {
+    flex: 60%;
+}
+
+.heading-title h1 {
+    font-size: 9vw;
+    line-height: 9vmax;
+}
+
+.main-search {
+    display: flex;
+    margin-top: 3vh;
+}
+
+#main-search {
+    color: white;
+    width: 90%;
+    padding: 18px;
+    border: none;
+    border-radius: 25px;
+    background: #FF7E69;
+    font-size: 2vmax;
+}
+
+::placeholder {
+    color: white;
+    font-size: 2vmax;
+}
+
+input[type=text]:focus {
+    border: none;
+    outline: none;
+    background-color: #FF7E69;
+}
+
+.search-btn {
+    margin-left: -50px;
+    background-color: #FF7E69;
+    padding: 17px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-btn img {
+    width: 50px;
+    height: auto;
+}
+
+.heading-img {
+    flex: 40%;
+}
+
+.heading-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* feature */
+
+.feature-header {
+    text-align: center;
+    font-size: 6vmin;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.feature-item {
+    width: 25%;
+    padding: 20px;
+    background: #FF7E69;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.feature-item img {
+    width: 80px;
+    margin: -60px 0 10px;
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+}
+
+.feature-item p {
+    font-size: 1.5vw;
+}
+
+.doc {
+    margin-right: 70px;
+}
+
+.lamp {
+    margin-right: 70px;
+}
+
+/* About Us */
+.about-us > .container {
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    flex: 50%;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro {
+    flex: 50%;
+    align-items: center;
+}
+
+.intro h2 {
+    font-size: 5vmax;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 2.5vmin;
+    line-height: 4vmin;
+}
+
+/* Contact */
+.contact-section > .container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-header {
+    flex: 50%;
+    text-align: right;
+    margin-right: 5vw;
+}
+
+.contact-header h2 {
+    font-size: 4vw;
+}
+
+.contact {
+    flex: 50%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-item p {
+    font-size: 1.5vmax;
+    margin-left: 10px;
+}
